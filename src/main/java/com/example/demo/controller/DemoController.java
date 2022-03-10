@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class DemoController {
     @GetMapping("/")
     public ResponseEntity<String> getLessons(){
-        return new ResponseEntity<>("Hello my first lessons", HttpStatus.OK);
+        return new ResponseEntity<>("Hello1 my first lessons", HttpStatus.OK);
 
     }
 }
